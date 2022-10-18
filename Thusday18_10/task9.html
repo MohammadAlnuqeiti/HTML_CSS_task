@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>task9</title>
     <style>
-        input  {size: "100";}
+       input[type=text] {size: "100"; }
         body {border: 2px solid black;border-style: ridge;
     border-width: 2px;
     border-left-width: 10px;
     border-right-width: 10px;
-    border-color: red; box-sizing: initial;   }
+    border-color: red; }
     </style>
 </head>
 <body>
@@ -29,7 +29,8 @@
     <br>
     <div>
         <label>Tell us a little about yourself:</label>
-        <input type="text" style="height: 60px; " >
+        <textarea cols="35" rows="7"></textarea>
+
     </div>
     <br>
     <div>
@@ -42,13 +43,13 @@
     <br>
     <div>
         <label>How do you like to read about your favorite topics?</label> <br>
-        <input type="radio" value="Books" name="books">
+        <input type="checkbox" value="Books" name="books">
         <label>Books</label>
-        <input type="radio" value="online resourcses" name="online resourcses">
+        <input type="checkbox" value="online resourcses" name="online resourcses">
         <label>Online resourcses</label>
-        <input type="radio" value="Phone apps" name="phone apps">
+        <input type="checkbox" value="Phone apps" name="phone apps">
         <label>Phone apps</label>
-        <input type="radio" value="magazines" name="magazines">
+        <input type="checkbox" value="magazines" name="magazines">
         <label>Magazines</label>
     </div>
     <br>
