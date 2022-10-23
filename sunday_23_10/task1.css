@@ -1,0 +1,19 @@
+
+
+div {
+    display: inline-block;
+    background-color: red;
+    border: 2px solid black;
+    list-style-type: none;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 0px 4px;
+    padding: 0px;
+    float: left;
+
+}
+.even {display: none;}
