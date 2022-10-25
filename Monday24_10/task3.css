@@ -1,0 +1,136 @@
+* {box-sizing: border-box;}
+
+/* FOOTER */
+.sony {
+    background-color: black;
+    /* display: flex; */
+    font-weight: bold;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 0 25%;}
+
+/* NAV_BAR */
+#main {
+     display: flex;
+     background-color: white;
+     width:50%;
+     margin: 0 25%;
+     justify-content: space-between;
+     border-bottom-style: dashed ;}
+
+
+#main .main1 {
+    display: flex;
+    justify-content: end;
+     margin: 10px;
+     width: 20px;
+     height: 20px;
+    }
+    #main .main1 div {
+        margin-left: 10px;
+    }
+    
+#main .main2 a {
+     display: flex;
+     justify-content: flex-start;
+     background-color: white;
+     margin: 5px;
+     width: 60px;
+     height: 30px;}
+ 
+/* SECTION */
+#sec {
+    display: grid;
+     width: 50%;
+     margin: 0 auto;
+     grid-template-columns: 100%;
+     gap: 20px 0;
+     border-bottom-style: dashed;
+     border-bottom-width: medium;
+     background-color:  #F1F2F2;}
+   
+.img { 
+
+     width: 100%;
+     align-items: center;}
+     
+div.par {
+
+    width: 50%;
+    height: 50%;
+    align-items: center;}
+
+table {
+
+     border-collapse: collapse;
+     width: 100%;
+     box-shadow: 0 0 5px 5px dimgray;
+     margin-bottom: 15px;}
+
+th, td {
+
+     padding: 0px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;}
+
+
+#sec div.ta {
+
+     background-color: bisque;
+     width:calc(100% / 2);
+     /* margin: 2px; */}
+
+#horizon{
+    width: 10%;
+    border-radius: 50%;} 
+    
+div.hor {
+    margin: 30px 20px;
+    padding: 0;
+    background-color: #F1F2F2;}
+
+
+div.hor p { width: 50%;}
+
+footer {
+    position: relative;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin: 0 25%;
+    width: 50%;
+    padding: 20px;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+}
+footer div {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.fa-playstation {
+    position: absolute;
+    align-items: center;
+    top: 15px;
+    left: 50%;}
+
+#last-container {
+    position: relative;
+    display: flex;}
+
+#button {
+    width: 200px;
+    height: 25px;
+    background-color: #0D0D0D;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    border-radius: 5px;
+    color: white;
+}
