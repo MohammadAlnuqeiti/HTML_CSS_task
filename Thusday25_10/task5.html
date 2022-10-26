@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* width: 50%; */
+            background-color: #EEDBBB;
+           margin: 15px ;}
+        * {
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            border-bottom: 1px solid #937344 ;
+        }
+        #national {
+            width: 10%;
+        }
+        .container {
+            display: grid ;
+            grid-template-columns: repeat(3 , 32%);
+            grid-template-rows: repeat(2 , 35%);
+            gap: 15px 15px;
+            margin-top:  50px;
+
+        }
+        .img {
+            width: 100%;
+            height: 75%;
+            padding: 5px 5px 0 5px;
+            border-radius: 7px;
+
+        }
+        figcaption {
+            width: 100%;
+            font-size: 15px;
+            padding: 5px;
+            text-align: center;
+        }
+        figure div {
+            background-color: blanchedalmond;
+            border-radius: 7px;
+        }
+        hr {
+            height: 2px;
+            background-color: #937344;
+        }
+        h1 , p ,figcaption {
+            color: #937344;
+        }
+        
+       
+        
+        @media  (min-width:414px)and (max-width:900px){
+            body {background-color: white;
+            width: 100%;}
+         .container {
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(6, 25%);}
+            p {font-size: 30px;}
+            h1 {font-size: 40px;}
+            #national {width: 30%;}
+          }          
+        
+    </style>
+</head>
+<body>
+    
+    <button onclick="history.back()">Go Back</button>
+
+    <nav>
+        <img src="../Thusday25_10/pictures/nh.png" alt="national" id="national">
+    </nav>
+<section>
+    <h1>Horse</h1>
+    <p>Horses and humans have an ancient relationship. Asian nomads probably domesticated the first horses some 4,000 years ago, and the animals remained essential to many human societies until the advent of the engine. Horses still hold a place of honor in many cultures, often linked to heroic exploits in war.</p>
+
+    <p>There is only one species of domestic horse, but around 400 different breeds that specialize in everything from pulling wagons to racing. All horses are grazers.</p>
+
+    <hr>
+</section>
+
+    <figure class="container">
+
+        <div>
+            <img src="../Thusday25_10/pictures/1.png" alt="1" class="img">
+            <figcaption>
+                PHOTOGRAPH BY SAMANTHA WHITELAW, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div>
+        <div>
+            <img src="../Thusday25_10/pictures/2.png" alt="2" class="img">
+            <figcaption>
+                PHOTOGRAPH BY SUZANNE ROGERS, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div>
+        <div>
+            <img src="../Thusday25_10/pictures/3.png" alt="3" class="img">
+            <figcaption>
+                PHOTOGRAPH BY SHUO CHEN, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div>
+
+        <div>
+            <img src="../Thusday25_10/pictures/4.png" alt="4" class="img">
+            <figcaption>
+                PHOTOGRAPH BY MARIA ITINA, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div>
+
+        <div>
+            <img src="../Thusday25_10/pictures/5.png" alt="5" class="img">
+            <figcaption>
+                PHOTOGRAPH BY DEAN CHYTRAUS, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div>
+
+        <div>
+            <img src="../Thusday25_10/pictures/6.png" alt="6" class="img">
+            <figcaption>
+                PHOTOGRAPH BY MARKLIN ANG, NATIONAL GEOGRAPHIC YOUR SHOT
+            </figcaption>
+        </div> 
+
+    </figure>
+
+</body>
+</html>
